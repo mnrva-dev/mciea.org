@@ -1,0 +1,394 @@
+
+<html>
+<head>
+<title>在线报名-中国仪器仪表学会测量控制与仪器仪表工程师资格认证</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="keywords" content="中国仪器仪表学会,测量控制与仪器仪表工程师资格认证,企业综合自动化培训">
+<meta name="description" content="中国仪器仪表学会、测量控制与仪器仪表工程师资格认证、企业综合自动化培训">
+<link href="/templates/default/style/default/style.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+<a name="top">
+<!--页面头部信息-->
+<table width="778"  border="0" align="center" cellpadding="0" cellspacing="0" class="headtop">
+  <tr>
+    <td class="black"><a href="/rss.php" target="_blank" title=" RSS 订阅 "><img src="/images/rss.gif" border="0"></a></td>
+    <td align="right" class="black">
+<a href="/member.php?action=reg" class="white">注册</a> | <a href="/member.php?action=login" class="white">登录</a> | <a href="/member.php?action=manage" class="white">控制面板</a> 
+<!--
+| <a href="/member.php?action=list" class="white">会员列表</a>
+-->
+| <a href="/search.php" class="white">搜索</a> | <a href="/contribute.php" class="white">投稿</a> | <a href="/guestbook.php?action=add" class="white">在线报名</a>
+　</td>
+  </tr>
+</table>
+<!--网站LOGO，banner位-->
+<table width="778" height="70" border="0" align="center" cellpadding="0" cellspacing="0" class="white">
+<tr>
+<td width="188" align="center"><a href="/">
+<img src="/data/uploadfile/200607/20060719151410679.jpg" border="0">
+</a>
+</td>
+<td width="490" align="center"><p><img src="http://www.mciea.org/data/uploadfile/200607/20060719151915879.gif"><a href="http://www.9466.cn/" target=_blank></a></p></td>
+<td width="100" align="center">
+□ <a id="StranLink">繁体中文</a><br>
+□ <a href="#" onClick="this.style.behavior= 'url(#default#homepage)';this.setHomePage ('http://www.mciea.org');">设为首页</a><br>
+□ <a href="#" onclick="window.external.addFavorite('http://www.mciea.org','中国仪器仪表学会测量控制与仪器仪表工程师资格认证')">加入收藏</a>
+</td>
+</tr>
+</table>
+<!--导航条位置-->
+<table width="778"  border="0" align="center" cellpadding="0" cellspacing="0" class="menus">
+  <tr>
+    <td align="center"><a href="/" class="mainmenu">首页</a> | <a href='/data/news/' target='_self' title='' class="mainmenu">新闻</a>
+| <a href='/data/file/' target='_self' title='' class="mainmenu">政策文件</a>
+| <a href='/data/struct/' target='_self' title='' class="mainmenu">组织机构</a>
+| <a href='/data/q_a/' target='_self' title='' class="mainmenu">问题与解答</a>
+| <a href='/data/training/' target='_self' title='' class="mainmenu">培训信息</a>
+| <a href='/data/cis/' target='_self' title='' class="mainmenu">中国仪器仪表学会</a>
+| <a href='/data/certificate/' target='_self' title='' class="mainmenu">证书查询</a>
+| <a href='http://bbs.mciea.org' target='_bank' title='' class="mainmenu">工程师论坛</a>
+| <a href='http://www.mciea.org/guestbook.php?action=add' target='_self' title='' class="mainmenu">在线报名</a>
+ | <a href="/data/special/" class="mainmenu">专题</a> | <a href="/mypage.php?action=picture" class="mainmenu">图片文章</a></td>
+  </tr>
+</table>
+<table width="778"  border="0" align="center" cellpadding="0" cellspacing="0" class="white">
+  <tr>
+    <td height="5"></td>
+  </tr>
+<script language="JavaScript">
+done = 0;
+step = 2
+function anim(yp,yk)
+{
+if(document.layers) document.layers["napis"].top=yp;
+else  document.all["napis"].style.top=yp;
+if(yp>yk) step = -2
+if(yp<60) step = 2
+setTimeout('anim('+(yp+step)+','+yk+')', 50);  //设置文字的升降速度
+}
+function start()
+{
+if(done) return
+done = 1;
+if(navigator.appName=="Netscape") {
+document.napis.left=innerWidth/2 - 145;
+anim(60,innerHeight - 60)
+}
+else {
+napis.style.left=11;
+anim(60,document.body.offsetHeight - 60)
+}
+}
+</script>
+<div id="napis" style="position: absolute;top: -50;color: green;font-family:宋体;font-size:70pt;">
+<p>
+<a href="http://www.cipsea.com/bbs/thread.php?fid=38">企业综合自动化火热报名！</a>
+</p></div>
+<script language="JavaScript">
+setTimeout('start()',1);
+</script>
+
+</table>
+<SCRIPT language=javaScript src='/images/guestbook/postcode.js' 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript>
+function storeCaret(textEl) {if(textEl.createTextRange) textEl.caretPos = document.selection.createRange().duplicate();}
+function HighlightAll(theField) {
+var tempval=eval('document.'+theField)
+tempval.focus()
+tempval.select()
+therange=tempval.createTextRange()
+therange.execCommand('Copy')
+}
+function DoTitle(addTitle) {
+var revisedTitle;var currentTitle = document.myform.intopictitle.value;revisedTitle = addTitle+currentTitle;document.myform.intopictitle.value=revisedTitle;document.myform.intopictitle.focus();
+return;
+}
+function checklength(theform){alert('您的 个人简历 目前有'+theform.content.value.length+'字节');}
+function enable(btn){btn.filters.gray.enabled=0;}
+function disable(btn){btn.filters.gray.enabled=1;}
+function showimage()
+{document.images.tus.src='images/default/face/'+document.myform.headportrait.options[document.myform.headportrait.selectedIndex].value+'.gif';}
+
+</SCRIPT>
+
+<script language = 'JavaScript'>
+function changeimage()
+{
+  document.myform.headimg.value=document.myform.Image.value;
+  document.myform.showimages.src='/images/guestbook/face/'+document.myform.Image.value+'.gif';
+}
+function CheckForm()
+{
+    if(document.myform.name.value==''){
+      alert('姓名不能为空！');
+      document.myform.name.focus();
+      return(false) ;
+    }
+  if(document.myform.name.value.length>30){
+    alert('!nametoolang!');
+    document.myform.name.focus();
+    return(false);
+  }
+ if(document.myform.email.value==''){
+      alert('邮件不能为空！');
+      document.myform.email.focus();
+      return(false) ;
+    }
+  if(document.myform.email.value.length>100){
+    alert('!nametoolang!');
+    document.myform.name.focus();
+    return(false);
+  }
+ 
+if(document.myform.telephone.value==''){
+    alert('单位名称不能为空！');
+    document.myform.telephone.focus();
+    return(false);
+ }
+  if(document.myform.telephone.value.length>100){
+    alert('单位名称不能超过100字符！');
+    document.myform.telephone.focus();
+    return(false);
+  }
+
+ if(document.myform.address.value==''){
+    alert('地址不能为空！');
+    document.myform.address.focus();
+    return(false);
+ }
+  if(document.myform.address.value.length>100){
+    alert('地址不能超过100字符！');
+    document.myform.address.focus();
+    return(false);
+  }
+  if(document.myform.title.value==''){
+    alert('手机不能为空！');
+    document.myform.title.focus();
+    return(false);
+  }
+  if(document.myform.title.value.length>100){
+    alert('主题不能超过30字符！');
+    document.myform.title.focus();
+    return(false);
+  }
+ 
+  if(document.myform.content.value==''){
+    alert('报名内容不能为空！');
+    document.myform.content.focus();
+    return(false);
+  }
+  if(document.myform.content.value.length>65536){
+    alert('内容不能超过64K！');
+    document.myform.content.focus();
+    return(false);
+  }  if(document.myform.checkcode.value==''){
+    alert('请输入您的验证码！');
+    document.myform.checkcode.focus();
+    return(false);
+  }
+}
+</script>
+
+<table width="778"  border="0" cellspacing="0" cellpadding="0" align="center" class="white">
+  <tr>
+    <td height="25">&nbsp;&nbsp;&nbsp;&nbsp;当前位置：<a href="/">首页</a> >> <a href="/guestbook.php">在线报名</a> >> 信息填写</td>
+  </tr>
+  <tr>
+    <td height="40" align="center">&nbsp;&nbsp;<a href="?action=add"><img src="/images/guestbook/home.gif" width="203" height="33" border="0"></a><a href="http://www.cipstc.com/www/data/page/1.htm"><img src="http://www.cipstc.com/bbs/attachment/Mon_0609/36_4082_1a7bece52565cee.jpg" width="203" height="33" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+  <td height="1"> </td>
+  </tr>
+ </table>
+
+<table width="778"  border="0" cellspacing="0" cellpadding="2" align="center" class="white">
+<form name="myform" method="post" action="?action=add" onsubmit="return CheckForm()">
+
+    <td width="20%" height="25" align="right"> <font color=red>*</font> 姓名：</td>
+    <td width="80%"><input name="name" type="text" id="name" size="25"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">性别：</td>
+    <td><input type="radio" name="gender" value="1" checked style="border:0">
+    男
+      <input type="radio" name="gender" value="0" style="border:0">
+      女</td>
+  </tr>
+  <tr>
+    <td height="25" align="right"><font color=red>*</font>E-mail：</td>
+    <td><input name="email" type="text" id="email" size="25"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">QQ：</td>
+    <td><input name="qq" type="text" id="qq" size="25">
+</td>
+  </tr>
+  <tr>
+    <td height="25" align="right">Msn：</td>
+    <td><input name="msn" type="text" id="msn" size="25"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right"><font color=red>*</font>单位名称：</td>
+    <td><input name="telephone" type="text" id="telephone" size="25"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right"><font color=red>*</font>地址—邮编：</td>
+    <td><input name="address" type="text" id="address" size="25"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">职务：</td>
+    <td><input name="homepage" type="text" id="homepage" size="25"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right"> <font color=red>*</font>电话—手机：</td>
+    <td><input name="title" type="text" id="title" size="50"></td>
+  </tr>
+
+<tr>
+    <td height="25" align="right">『<A href="javascript:checklength(document.myform);">查看长度</A>』<BR>
+『<A href="javascript:HighlightAll('myform.content')">复制文本</A>』<BR>
+『<A href="javascript:replac()">替换文本</A>』  </td>
+    <td>&nbsp; 
+<SELECT onchange=showfont(this.options[this.selectedIndex].value) size=1  name=font>
+<OPTION value=no selected>字体</OPTION><OPTION value=宋体>宋体</OPTION><OPTION value=楷体_GB2312>楷体</OPTION><OPTION value=新宋体>新宋体</OPTION><OPTION value=黑体>黑体</OPTION><OPTION value=隶书>隶书</OPTION>
+<OPTION value=Arial>Arial</OPTION>
+<OPTION value=Impact>Impact</OPTION>
+<OPTION value=Tahoma>Tahoma</OPTION> 
+<OPTION value="Times New Roman">Times New Roman</OPTION>
+<OPTION value=else>其他</OPTION>
+</SELECT>
+<SELECT onchange=showsize(this.options[this.selectedIndex].value) size=1 name=size>
+<OPTION selected>字号</OPTION> <OPTION value=9>9</OPTION> 
+ <OPTION value=10>10</OPTION>
+ <OPTION value=11>11</OPTION>
+ <OPTION value=12>12</OPTION>
+ <OPTION value=18>18</OPTION>
+ <OPTION value=36>36</OPTION>
+ <OPTION value=72>72</OPTION>
+ <OPTION value=else>其他</OPTION>
+</SELECT>
+<SELECT onchange=showcolor(this.options[this.selectedIndex].value) size=1 name=color>
+ <OPTION value=no selected>颜色</OPTION>
+ <OPTION style="COLOR: #000000; BACKGROUND-COLOR: #000000" value=#000000>#000000</OPTION>
+ <OPTION style="COLOR: #ffffff; BACKGROUND-COLOR: #ffffff" value=#FFFFFF>#FFFFFF</OPTION>
+ <OPTION style="COLOR: #ff0000; BACKGROUND-COLOR: #ff0000" value=#FF0000>#FF0000</OPTION>
+ <OPTION style="COLOR: #00ff00; BACKGROUND-COLOR: #00ff00" value=#00FF00>#00FF00</OPTION>
+ <OPTION style="COLOR: #0000ff; BACKGROUND-COLOR: #0000ff" value=#0000FF>#0000FF</OPTION>
+ <OPTION style="COLOR: #00ffff; BACKGROUND-COLOR: #00ffff" value=#00FFFF>#00FFFF</OPTION>
+ <OPTION style="COLOR: #ffebcd; BACKGROUND-COLOR: #ffebcd" value=#FFEBCD>#FFEBCD</OPTION>
+ <OPTION style="COLOR: #5f9ea0; BACKGROUND-COLOR: #5f9ea0" value=#5F9EA0>#5F9EA0</OPTION>
+ <OPTION style="COLOR: #6495ed; BACKGROUND-COLOR: #6495ed" value=#6495ED>#6495ED</OPTION>
+ <OPTION>其他</OPTION>
+</SELECT> 
+<BR>&nbsp; <IMG onclick=bold() height=22 alt="粗体字" src="/images/guestbook/ubb/bold.gif" width=23>
+           <IMG onclick=italicize() height=22 alt="斜体字" src="/images/guestbook/ubb/italicize.gif" width=23>
+          <IMG onclick=underline() height=22 alt="下划线" src="/images/guestbook/ubb/underline.gif" width=23>
+          <IMG onclick=center() height=22 alt="对齐" src="/images/guestbook/ubb/center.gif" width=23>
+          <IMG onclick=hyperlink() height=22 alt="插入超级链接" src="/images/guestbook/ubb/url.gif" width=23>
+          <IMG onclick=email() height=22 alt="插入邮件地址" src="/images/guestbook/ubb/email.gif" width=23>
+         <IMG onclick=image() height=22 alt="插入图片" src="/images/guestbook/ubb/image.gif" width=23>
+         <IMG onclick=setswf() height=22 alt="插入FLASH" src="/images/guestbook/ubb/swf.gif" width=23>
+         <IMG onclick=list() height=22 alt="插入列表" src="/images/guestbook/ubb/list.gif" width=23>
+         <IMG onclick=showcode() height=22 alt="插入代码" src="/images/guestbook/ubb/code.gif" width=23>
+         <IMG onclick=setfly() height=22 alt="飞行字" src="/images/guestbook/ubb/fly.gif" width=23>
+         <IMG onclick=shadow() height=22 alt="阴影字" src="/images/guestbook/ubb/shadow.gif" width=23>
+         </td>
+  </tr>
+
+
+
+
+  <tr>
+    <td align="center" >
+     <font color=red>*</font> 个人简历：<br><br>
+ <Input type="hidden" value="01" name="headimg"> 
+ <IMG title=点击选择头像 style="CURSOR: hand" onclick="window.open('?action=headlist','face','width=480,height=400,resizable=1,scrollbars=1')" height=90 src="/images/guestbook/face/01.gif" width=80 border=0 name=showimages><br><br>
+ <Select onchange=changeimage(); size=1 name=Image> 
+  <Option value=01 selected>01</Option> 
+  <Option value=02>02</Option> 
+  <Option value=03>03</Option> 
+  <Option value=04>04</Option> 
+  <Option value=05>05</Option> 
+  <Option value=06>06</Option> 
+  <Option value=07>07</Option> 
+  <Option value=08>08</Option> 
+  <Option value=09>09</Option> 
+  <Option value=10>10</Option> 
+  <Option value=11>11</Option> 
+  <Option value=12>12</Option> 
+  <Option value=13>13</Option> 
+  <Option value=14>14</Option> 
+  <Option value=15>15</Option> 
+  <Option value=16>16</Option> 
+  <Option value=17>17</Option> 
+  <Option value=18>18</Option> 
+  <Option value=19>19</Option> 
+  <Option value=20>20</Option> 
+  <Option value=21>21</Option> 
+  <Option value=22>22</Option> 
+  <Option value=23>23</Option>
+            </Select></td>
+    <td>
+<textarea name="content" cols="50" rows="12" id="content"></textarea>
+
+
+</td>
+  </tr>
+  <tr>
+    <td height="25" align="right"> <font color=red>*</font> 验证码：</td>
+    <td><input name="checkcode" type="text" id="checkcode" size="5"><SCRIPT language=Javascript src="/checkcode.php"></SCRIPT></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">&nbsp;</td>
+    <td><input type="submit" name="submit" value=" 确定 ">
+    <input type="reset" name="submit" value=" 重置 "></td>
+  </tr>
+</form>
+</table>
+
+<table width="778"  border="0" align="center" cellpadding="0" cellspacing="0" class="white">
+  <tr>
+    <td height="1"></td>
+  </tr>
+</table>
+
+
+
+<!--版权信息-->
+<table width="778"  border="0" align="center" cellpadding="5" cellspacing="0" bgcolor="#f5f5f5">
+  <tr>
+    <td align="center" bgcolor="#eeeeee">
+ ·<a href="/data/page/1.htm" class="pagemenu">关于我们</a> 
+ ·<a href="/data/page/2.htm" class="pagemenu">联系方式</a> 
+ ·<a href="/data/page/3.htm" class="pagemenu">MCIEA申报表下载</a> 
+ ·<a href="/data/page/4.htm" class="pagemenu">在线报名</a> 
+
+   </td>
+  </tr>
+  <tr>
+    <td align="center"><span style="color:#333333 ">中国仪器仪表学会测量控制与仪器仪表工程师资格认证</span></td>
+  </tr>
+</table>
+
+<table width="778" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5">
+  <tr>
+    <td  valign="bottom">&nbsp;</td>
+    <td  align="center">
+
+    <script language="javascript" src="http://count25.51yes.com/click.aspx?id=258380301&logo=9"></script>
+    <script language="JavaScript" charset="gb2312" type="text/javascript" src="http://www1.itsun.com/counter.php?uuid=1474491&style=icon"></script>
+
+     </td>
+    <td  valign="bottom" >&nbsp;</td>
+  </tr>
+</table>
+
+
+<Script Language=Javascript Src="/include/js/Std_StranJF.Js"></Script>
+</body>
+
+</html>
+

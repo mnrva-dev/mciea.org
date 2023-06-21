@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>你觉得哪个证书对你用处大？？-中国仪器仪表学会测量控制与仪器仪表工程师资格认证</title>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312">
+<link href="/templates/default/style/default/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table width="600" border="0" align="center" cellpadding="5" cellspacing="1" bgcolor="#F3F3F3">
+  <tr align="center" bgcolor="#F3F3F3">
+    <td colspan="3"><b>你觉得哪个证书对你用处大？？</b></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td width="200" height="20" align="center">投票总数: <font color="red">64</font></td>
+    <td width="50">&nbsp;</td>
+    <td width="360">起始日期: <font color="red">2006-09-21</font>&nbsp;&nbsp;&nbsp;&nbsp;结束日期: <font color="red"></font></td>
+  </tr>
+  <tr align="center" bgcolor="#F3F3F3">
+    <td height="20"><b>投票选项(票数)</b></td>
+    <td><b>百分比</b></td>
+    <td><b>柱状图</b></td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF">
+    <td height="20">&nbsp; 测量控制与仪器仪表资格认证(MCIEA)(<font color="red">41</font>)</td>
+    <td align="center">64.06%</td>
+    <td>
+<table cellpadding="0" cellspacing="0" border="0" width="360" bgcolor="#e1e1e1">
+  <tr>
+    <td height="20" width="64.06%" bgcolor="#999999"></td>
+    <td width="36%"></td>
+  </tr>
+</table>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF">
+    <td height="20">&nbsp; 专业资格认证(<font color="red">22</font>)</td>
+    <td align="center">34.38%</td>
+    <td>
+<table cellpadding="0" cellspacing="0" border="0" width="360" bgcolor="#e1e1e1">
+  <tr>
+    <td height="20" width="34.38%" bgcolor="#999999"></td>
+    <td width="66%"></td>
+  </tr>
+</table>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF">
+    <td height="20">&nbsp; 继续教育证书(<font color="red">1</font>)</td>
+    <td align="center">1.56%</td>
+    <td>
+<table cellpadding="0" cellspacing="0" border="0" width="360" bgcolor="#e1e1e1">
+  <tr>
+    <td height="20" width="1.56%" bgcolor="#999999"></td>
+    <td width="98%"></td>
+  </tr>
+</table>
+    </td>
+  </tr>
+
+
+  <tr align="center" bgcolor="#FFFFFF">
+    <td colspan="3" height="20"></td>
+  </tr>
+  <tr align="center" bgcolor="#FFFFFF">
+    <td colspan="3"><script>
+function myform_submit(){
+         var groups=3 
+         for (i=0; i<groups; i++){
+             if(myform.voteoption[i].checked){
+                 return true;
+             }
+         }
+         alert("对不起，您没有选择选项！");
+         return false;
+}
+</script>
+<table cellpadding="2" cellspacing="1" border="0" width="100%">
+  <tr>
+    <td><b>你觉得哪个证书对你用处大？？</b></td>
+  </tr>
+  <form method="post" name="myform" action="http://www.mciea.org/vote.php?voteid=2&action=vote" target="_blank" onsubmit="return myform_submit();">
+
+  <tr>
+    <td>
+<input type="radio" name="voteoption" id="voteoption" value="4" class="radiocolor"> 测量控制与仪器仪表资格认证(MCIEA)</td>
+  </tr>
+
+  <tr>
+    <td>
+<input type="radio" name="voteoption" id="voteoption" value="5" class="radiocolor"> 专业资格认证</td>
+  </tr>
+
+  <tr>
+    <td>
+<input type="radio" name="voteoption" id="voteoption" value="6" class="radiocolor"> 继续教育证书</td>
+  </tr>
+
+
+  <tr>
+    <td align="center">
+              <input type="submit" value="投票" name="submit">
+              <input type="button" value="查看结果" name="result" onClick="javascript:window.open('http://www.mciea.org/vote.php?action=result&voteid=2');">
+       </td>
+  </tr>
+  </form>
+</table></td>
+  </tr>
+</table>
+</body>
+</html>
