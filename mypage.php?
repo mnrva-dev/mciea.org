@@ -1,1 +1,0 @@
-<script>alert('对不起，参数错误！');history.go(-1);</script>

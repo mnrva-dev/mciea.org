@@ -1,1 +1,0 @@
-<script>alert('对不起，该会员不存在！');history.go(-1);</script>

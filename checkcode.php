@@ -1,1 +1,0 @@
-document.write("<img src='/checkcode.php?gd=1' align='absmiddle'>")
